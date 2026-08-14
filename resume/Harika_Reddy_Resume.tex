@@ -1,0 +1,90 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\usepackage[margin=0.62in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+\usepackage{microtype}
+\input{glyphtounicode}
+
+\renewcommand{\familydefault}{\sfdefault}
+\pdfgentounicode=1
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\raggedright
+
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0pt}
+  {}
+  [\vspace{-4pt}\rule{\textwidth}{0.5pt}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+
+\setlist[itemize]{
+  leftmargin=0.19in,
+  itemsep=1.5pt,
+  topsep=2pt,
+  parsep=0pt,
+  partopsep=0pt
+}
+
+\newcommand{\projectheading}[3]{
+  \textbf{#1} \hfill #2\\
+  {\small #3}\vspace{1pt}
+}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Harika Reddy}\\[3pt]
+  India \enspace | \enspace Phone: [add phone] \enspace | \enspace
+  Email: [add email]\\
+  LinkedIn: [add LinkedIn URL] \enspace | \enspace
+  \href{https://github.com/harikareddy9878-rgb}{github.com/harikareddy9878-rgb}
+\end{center}
+\vspace{-6pt}
+
+\section*{Professional Summary}
+Entry-level developer and data practitioner with hands-on project experience in analytics, machine learning, natural language processing, and Java backend development. Built reproducible Python data pipelines, Power BI-ready analytical models, scikit-learn regression and text-classification workflows, and tested Spring Boot and JavaScript applications. Seeking an entry-level role in data, machine learning, software engineering, or backend development.
+
+\section*{Technical Skills}
+\textbf{Languages:} Python, SQL, Java, JavaScript, HTML, CSS\\
+\textbf{Data and Business Intelligence:} pandas, Power BI, DAX, data cleaning, data quality testing, Matplotlib\\
+\textbf{Machine Learning and NLP:} scikit-learn, gradient boosting, regression, interval calibration, TF-IDF, logistic regression, confidence thresholds, model evaluation\\
+\textbf{Backend, Web, and Tools:} Spring Boot, REST APIs, browser storage, Git, GitHub Actions, Vercel, pytest, JUnit, Node.js test runner
+
+\section*{Project Experience}
+
+\projectheading{BigTech Electronics Store}{Jun 2026 - Present}{Java Backend and Web Project | \href{https://github.com/harikareddy9878-rgb/bigtech-electronics-store}{github.com/harikareddy9878-rgb/bigtech-electronics-store}}
+\begin{itemize}
+  \item Developed and deployed an Indian electronics storefront using JavaScript, HTML, CSS, Java 17, Spring Boot, REST APIs, and Vercel; connected search, a 28-product catalogue, cart, checkout, order history, and Ezzie support.
+  \item Implemented inventory reserve, commit, release, and rejection paths across three checkout outcomes and eight delivery stages; verified browser and backend behaviour with 17 JavaScript and JUnit tests.
+\end{itemize}
+
+\projectheading{CivicRoute Service Request Triage}{Mar 2026 - May 2026}{Natural Language Processing Project | \href{https://github.com/harikareddy9878-rgb/civicroute-service-request-triage}{github.com/harikareddy9878-rgb/civicroute-service-request-triage}}
+\begin{itemize}
+  \item Prepared 175,784 public service requests into 36,805 deduplicated examples across eight queues, then trained an interpretable TF-IDF and class-balanced logistic regression routing pipeline.
+  \item Evaluated category-group generalisation at 0.974 macro F1 with 84.8\% automatic coverage and 99.9\% accepted-route accuracy; routed low-confidence and short requests to manual review.
+\end{itemize}
+
+\projectheading{MetroRent Price Estimator}{Aug 2025 - Dec 2025}{Machine Learning Project | \href{https://github.com/harikareddy9878-rgb/metrorent-price-estimator}{github.com/harikareddy9878-rgb/metrorent-price-estimator}}
+\begin{itemize}
+  \item Combined and cleaned 21,691 public rental listings with Python and pandas, producing 12,201 model rows across five cities and 2,102 localities for gradient boosting regression.
+  \item Tested on 1,831 unseen listings and reduced MAE to INR 11,652 from an INR 22,122 city-median baseline; calibrated an 89.7\% coverage prediction interval and reported city-level errors.
+\end{itemize}
+
+\projectheading{CareMap Facility Analytics}{Feb 2025 - May 2025}{Data Analytics and Business Intelligence Project | \href{https://github.com/harikareddy9878-rgb/caremap-facility-analytics}{github.com/harikareddy9878-rgb/caremap-facility-analytics}}
+\begin{itemize}
+  \item Cleaned 200,438 public health-facility records with Python and pandas, removed 6,655 duplicate signatures, and produced 193,783 validated records across 36 state and union-territory labels.
+  \item Prepared a four-page Power BI model and governed DAX measures for national coverage, state comparison, facility mix, and data quality; validated 99.7\% coordinate coverage with automated tests.
+\end{itemize}
+
+\section*{Education}
+\textbf{Bachelor of Technology in Computer Science} \hfill Graduation: Jun 2026\\
+Institution: [add institution name], India
+
+\end{document}

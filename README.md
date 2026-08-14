@@ -8,6 +8,7 @@
 
 <p align="center">
   <a href="https://bigtech-store.vercel.app/"><img alt="Open BigTech" src="https://img.shields.io/badge/BigTech-Open%20live%20store-f28b50?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="output/pdf/Harika_Reddy_Resume.pdf"><img alt="Download resume" src="https://img.shields.io/badge/Resume-Download%20PDF-157a76?style=for-the-badge" /></a>
   <a href="https://github.com/harikareddy9878-rgb?tab=repositories"><img alt="View repositories" src="https://img.shields.io/badge/Explore-All%20projects-157a76?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
@@ -18,7 +19,7 @@
 | Data analysis | CareMap Facility Analytics | 200,438 source records and a Power BI ready model |
 | Machine learning | MetroRent Price Estimator | 21,691 source listings across five cities |
 | Language systems | CivicRoute Service Request Triage | 175,784 source requests and eight service queues |
-| Software | BigTech Electronics Store | 28 products, seven categories, and fourteen automated tests |
+| Software | BigTech Electronics Store | 28 products, seven categories, and seventeen automated tests |
 
 ## Selected projects
 
@@ -83,7 +84,7 @@
 | :--- | :--- |
 | **Problem** | Search, stock, payment, delivery, order history and support require one consistent state model across the shopping journey. |
 | **Approach** | I connected a responsive storefront to a Java 17 Spring Boot order API. The backend validates requests, coordinates five bounded components, reserves or releases inventory, and stops later work after failure. |
-| **Evidence** | The application covers 28 products, seven categories, eight delivery stages and three controlled checkout outcomes. Ten JavaScript tests and four JUnit tests verify browser and backend behaviour. |
+| **Evidence** | The application covers 28 products, seven categories, eight delivery stages and three controlled checkout outcomes. Thirteen JavaScript tests and four JUnit tests verify browser and backend behaviour. |
 | **Stack** | Java 17 · Spring Boot · JavaScript · HTML · CSS · REST · JUnit · Vercel |
 
 <p align="center"><a href="https://bigtech-store.vercel.app/"><strong>Live application</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Report.pdf"><strong>PDF report</strong></a></p>
