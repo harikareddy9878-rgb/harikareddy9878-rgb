@@ -11,7 +11,7 @@
   <a href="https://github.com/harikareddy9878-rgb?tab=repositories"><img alt="View repositories" src="https://img.shields.io/badge/Explore-All%20projects-157a76?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
 
-## Portfolio snapshot
+## Project snapshot
 
 | Direction | Project | Evidence |
 | :--- | :--- | ---: |
@@ -29,9 +29,9 @@
     <td width="58%"><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><img src="assets/caremap-dashboard.png" width="100%" alt="CareMap health facility dashboard" /></a></td>
     <td width="42%" valign="top">
       <p><strong>The issue</strong><br/>A nationwide directory is large enough that duplicate facilities, invalid coordinates, and inconsistent labels can distort a facility access view.</p>
-      <p><strong>The build</strong><br/>A Python acquisition and quality pipeline, an analysis table, validation tests, DAX measures, a four page Power BI build guide, and a twelve page research report.</p>
+      <p><strong>The build</strong><br/>A Python acquisition and quality pipeline, an analysis table, validation tests, DAX measures, a four page Power BI build guide, and a fifteen page technical report.</p>
       <p><strong>The outcome</strong><br/>200,438 source records became 193,783 clean records after 6,655 duplicates were removed. The final model covers 36 state and union territory labels, 688 state and district combinations, and 99.7% mapped records.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics/blob/main/reports/CareMap_Facility_Analytics_Report.pdf">PDF report</a></p>
+      <p><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics/blob/main/reports/CareMap_Report.pdf">PDF report</a></p>
     </td>
   </tr>
 </table>
@@ -44,7 +44,7 @@
       <p><strong>The issue</strong><br/>Rental listings are inconsistent across cities and a single estimate can hide wide local variation.</p>
       <p><strong>The build</strong><br/>Two public rental sources, one cleaning pipeline, a leakage controlled train, calibration, and test split, a city median baseline, error analysis, and a calibrated interval.</p>
       <p><strong>The outcome</strong><br/>21,691 source listings produced 12,201 model rows across Bangalore, Mumbai, Nagpur, New Delhi, and Pune. On 1,831 unseen listings, MAE was ₹11,652 compared with a ₹22,122 city median baseline; the interval covered 89.7% of test rents.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator/blob/main/reports/MetroRent_Price_Estimator_Report.pdf">PDF report</a></p>
+      <p><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator/blob/main/reports/MetroRent_Report.pdf">PDF report</a></p>
     </td>
     <td width="58%"><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><img src="assets/metrorent-evaluation.png" width="100%" alt="MetroRent model evaluation" /></a></td>
   </tr>
@@ -59,7 +59,7 @@
       <p><strong>The issue</strong><br/>A citizen service request can be delayed when it reaches the wrong queue, while an automatic system should not hide uncertainty.</p>
       <p><strong>The build</strong><br/>An interpretable TF IDF and logistic regression pipeline with deduplication, random and category-group holdouts, a confidence threshold, and manual review.</p>
       <p><strong>The outcome</strong><br/>175,784 source records produced 36,805 prepared examples across eight service queues. The harder unseen-category holdout reached 0.974 macro F1 and retained 15.2% of requests for review.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage/blob/main/reports/CivicRoute_Service_Request_Triage_Report.pdf">PDF report</a></p>
+      <p><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage/blob/main/reports/CivicRoute_Report.pdf">PDF report</a></p>
     </td>
   </tr>
 </table>
@@ -69,10 +69,10 @@
 <table>
   <tr>
     <td width="42%" valign="top">
-      <p><strong>The issue</strong><br/>A useful retail demonstration needs consistent behaviour from search and stock through cart, payment outcome, delivery, orders, account, and support.</p>
-      <p><strong>The build</strong><br/>A responsive Indian electronics experience, a Java Spring Boot order coordinator with five bounded agents, inventory reservation and release, an eight stage delivery timeline, and Ezzie for product, cart, delivery, return, and order questions.</p>
-      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support available, low stock, unavailable, confirmed, shipped, delivered, payment failed, and stock changed scenarios. Ten JavaScript tests and four Java tests verify cart rules, stock commit and release, safe failure paths, delivery milestones, and assistant boundaries.</p>
-      <p><a href="https://bigtech-store.vercel.app/"><strong>Live project</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store">Source</a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Electronics_Store_Report.pdf">PDF report</a></p>
+      <p><strong>The issue</strong><br/>A useful retail application needs consistent behaviour from search and stock through cart, payment outcome, delivery, orders, account, and support.</p>
+      <p><strong>The build</strong><br/>A responsive Indian electronics experience backed by a Java 17 Spring Boot order API. The backend validates requests, coordinates five bounded components, reserves and releases inventory, stops safely after failure, and returns an eight stage delivery contract. Ezzie uses the same saved product and order state.</p>
+      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support available, low stock, unavailable, confirmed, shipped, delivered, payment failed, and stock changed scenarios. Ten JavaScript tests and four JUnit tests verify browser rules and backend commit, release, rejection, stopping paths and delivery milestones.</p>
+      <p><a href="https://bigtech-store.vercel.app/"><strong>Live project</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store">Source</a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Report.pdf">PDF report</a></p>
     </td>
     <td width="58%"><a href="https://bigtech-store.vercel.app/"><img src="assets/bigtech-ezzie-support.png" width="100%" alt="BigTech electronics store with Ezzie support" /></a></td>
   </tr>
