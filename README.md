@@ -29,7 +29,7 @@
     <td width="58%"><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><img src="assets/caremap-dashboard.png" width="100%" alt="CareMap health facility dashboard" /></a></td>
     <td width="42%" valign="top">
       <p><strong>The issue</strong><br/>A nationwide directory is large enough that duplicate facilities, invalid coordinates, and inconsistent labels can distort a facility access view.</p>
-      <p><strong>The build</strong><br/>A Python acquisition and quality pipeline, an analysis table, validation tests, DAX measures, a four page Power BI build guide, and a ten page report.</p>
+      <p><strong>The build</strong><br/>A Python acquisition and quality pipeline, an analysis table, validation tests, DAX measures, a four page Power BI build guide, and a twelve page research report.</p>
       <p><strong>The outcome</strong><br/>200,438 source records became 193,783 clean records after 6,655 duplicates were removed. The final model covers 36 state and union territory labels, 688 state and district combinations, and 99.7% mapped records.</p>
       <p><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics/blob/main/reports/CareMap_Facility_Analytics_Report.pdf">PDF report</a></p>
     </td>
@@ -71,7 +71,7 @@
     <td width="42%" valign="top">
       <p><strong>The issue</strong><br/>A useful retail demonstration needs consistent behaviour from search and stock through cart, payment outcome, delivery, orders, account, and support.</p>
       <p><strong>The build</strong><br/>A responsive Indian electronics experience, an independently testable Java Spring Boot order service, and Ezzie for product, cart, delivery, return, and order questions.</p>
-      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support in stock, low stock, unavailable, successful payment, failed payment, and saved order scenarios. Seven frontend tests, three Java tests, and a production browser journey pass.</p>
+      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support in stock, low stock, unavailable, successful payment, failed payment, and saved order scenarios. Seven frontend tests, three Java tests, and a production browser journey pass. The Vercel storefront now includes category specific product artwork and responsive discovery.</p>
       <p><a href="https://bigtech-electronics-store.vercel.app/"><strong>Live project</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store">Source</a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Electronics_Store_Report.pdf">PDF report</a></p>
     </td>
     <td width="58%"><a href="https://bigtech-electronics-store.vercel.app/"><img src="assets/bigtech-ezzie-assistant.png" width="100%" alt="BigTech electronics store with Ezzie support" /></a></td>
