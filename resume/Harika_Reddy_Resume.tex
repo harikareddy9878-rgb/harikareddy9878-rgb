@@ -32,9 +32,9 @@
   partopsep=0pt
 }
 
-\newcommand{\projectheading}[3]{
-  \textbf{#1} \hfill #2\\
-  {\small #3}\vspace{1pt}
+\newcommand{\projectheading}[4]{
+  \href{#3}{\textbf{#1}} \hfill #2\\
+  {\small GitHub: \href{#3}{#4}}\vspace{1pt}
 }
 
 \begin{document}
@@ -49,7 +49,7 @@
 \vspace{-6pt}
 
 \section*{Professional Summary}
-Entry-level developer and data practitioner with hands-on project experience in analytics, machine learning, natural language processing, and Java backend development. Built reproducible Python data pipelines, Power BI-ready analytical models, scikit-learn regression and text-classification workflows, and tested Spring Boot and JavaScript applications. Seeking an entry-level role in data, machine learning, software engineering, or backend development.
+Recent Computer Science graduate seeking internship and entry-level opportunities in data analytics, machine learning, software engineering, and backend development. Portfolio projects demonstrate Python data preparation, Power BI reporting, scikit-learn regression and text classification, and tested web applications built with Java, Spring Boot, JavaScript, HTML, and CSS.
 
 \section*{Technical Skills}
 \textbf{Languages:} Python, SQL, Java, JavaScript, HTML, CSS\\
@@ -57,34 +57,34 @@ Entry-level developer and data practitioner with hands-on project experience in 
 \textbf{Machine Learning and NLP:} scikit-learn, gradient boosting, regression, interval calibration, TF-IDF, logistic regression, confidence thresholds, model evaluation\\
 \textbf{Backend, Web, and Tools:} Spring Boot, REST APIs, browser storage, Git, GitHub Actions, Vercel, pytest, JUnit, Node.js test runner
 
-\section*{Project Experience}
+\section*{Projects}
 
-\projectheading{BigTech Electronics Store}{Jun 2026 - Present}{Java Backend and Web Project | \href{https://github.com/harikareddy9878-rgb/bigtech-electronics-store}{github.com/harikareddy9878-rgb/bigtech-electronics-store}}
+\projectheading{Electronics Storefront and Order Management System}{June 2026}{https://github.com/harikareddy9878-rgb/bigtech-electronics-store}{github.com/harikareddy9878-rgb/bigtech-electronics-store}
 \begin{itemize}
-  \item Developed and deployed an Indian electronics storefront using JavaScript, HTML, CSS, Java 17, Spring Boot, REST APIs, and Vercel; connected search, a 28-product catalogue, cart, checkout, order history, and Ezzie support.
-  \item Implemented inventory reserve, commit, release, and rejection paths across three checkout outcomes and eight delivery stages; verified browser and backend behaviour with 17 JavaScript and JUnit tests.
+  \item Built an electronics shopping website to keep product search, stock, cart, payment results, delivery tracking, order history, and customer support connected through one customer journey.
+  \item Used JavaScript, HTML, CSS, Java 17, Spring Boot, REST APIs, and Vercel for 28 products and seven categories; implemented three checkout outcomes and eight delivery stages, verified by 17 automated tests.
 \end{itemize}
 
-\projectheading{CivicRoute Service Request Triage}{Mar 2026 - May 2026}{Natural Language Processing Project | \href{https://github.com/harikareddy9878-rgb/civicroute-service-request-triage}{github.com/harikareddy9878-rgb/civicroute-service-request-triage}}
+\projectheading{Public Service Request Classification and Routing}{March 2026}{https://github.com/harikareddy9878-rgb/civicroute-service-request-triage}{github.com/harikareddy9878-rgb/civicroute-service-request-triage}
 \begin{itemize}
-  \item Prepared 175,784 public service requests into 36,805 deduplicated examples across eight queues, then trained an interpretable TF-IDF and class-balanced logistic regression routing pipeline.
-  \item Evaluated category-group generalisation at 0.974 macro F1 with 84.8\% automatic coverage and 99.9\% accepted-route accuracy; routed low-confidence and short requests to manual review.
+  \item Built a text-classification system that directs written public service requests to eight service queues while sending uncertain requests to manual review instead of forcing a prediction.
+  \item Used Python, pandas, TF-IDF, and logistic regression to prepare 175,784 source requests into 36,805 examples; achieved 0.974 macro F1, 84.8\% automatic coverage, and 99.9\% accepted-route accuracy.
 \end{itemize}
 
-\projectheading{MetroRent Price Estimator}{Aug 2025 - Dec 2025}{Machine Learning Project | \href{https://github.com/harikareddy9878-rgb/metrorent-price-estimator}{github.com/harikareddy9878-rgb/metrorent-price-estimator}}
+\projectheading{Indian Metro Rental Price Estimation}{December 2025}{https://github.com/harikareddy9878-rgb/metrorent-price-estimator}{github.com/harikareddy9878-rgb/metrorent-price-estimator}
 \begin{itemize}
-  \item Combined and cleaned 21,691 public rental listings with Python and pandas, producing 12,201 model rows across five cities and 2,102 localities for gradient boosting regression.
-  \item Tested on 1,831 unseen listings and reduced MAE to INR 11,652 from an INR 22,122 city-median baseline; calibrated an 89.7\% coverage prediction interval and reported city-level errors.
+  \item Built a rental-price model for five Indian cities to estimate monthly asking rent while showing an uncertainty range instead of presenting one value as guaranteed.
+  \item Used Python, pandas, scikit-learn, and gradient boosting to clean 21,691 listings into 12,201 model rows; reduced MAE to INR 11,652 from an INR 22,122 baseline and achieved 89.7\% interval coverage.
 \end{itemize}
 
-\projectheading{CareMap Facility Analytics}{Feb 2025 - May 2025}{Data Analytics and Business Intelligence Project | \href{https://github.com/harikareddy9878-rgb/caremap-facility-analytics}{github.com/harikareddy9878-rgb/caremap-facility-analytics}}
+\projectheading{Public Health Facility Data Quality and Analytics}{May 2025}{https://github.com/harikareddy9878-rgb/caremap-facility-analytics}{github.com/harikareddy9878-rgb/caremap-facility-analytics}
 \begin{itemize}
-  \item Cleaned 200,438 public health-facility records with Python and pandas, removed 6,655 duplicate signatures, and produced 193,783 validated records across 36 state and union-territory labels.
-  \item Prepared a four-page Power BI model and governed DAX measures for national coverage, state comparison, facility mix, and data quality; validated 99.7\% coordinate coverage with automated tests.
+  \item Cleaned a large public health-facility directory so duplicate facilities, invalid coordinates, and inconsistent state labels would not distort national and state comparisons.
+  \item Used Python and pandas to turn 200,438 source records into 193,783 validated rows, then used Power BI and DAX for a four-page analysis of coverage, facility mix, and data quality.
 \end{itemize}
 
 \section*{Education}
-\textbf{Bachelor of Technology in Computer Science} \hfill Graduation: Jun 2026\\
+\textbf{Bachelor of Technology in Computer Science} \hfill Graduation: June 2026\\
 Institution: [add institution name], India
 
 \end{document}
