@@ -15,28 +15,28 @@
 
 | Direction | Project | Evidence |
 | :--- | :--- | ---: |
-| Data analysis | India Public Health Facility Access Analytics | 200,438 source records and a Power BI ready model |
-| Machine learning | Indian Metro Rental Price Estimator | 21,691 source listings across five cities |
-| Language systems | India Public Grievance Department Router | 175,784 source grievances and eight departments |
+| Data analysis | CareMap Facility Analytics | 200,438 source records and a Power BI ready model |
+| Machine learning | MetroRent Price Estimator | 21,691 source listings across five cities |
+| Language systems | CivicRoute Service Request Triage | 175,784 source requests and eight service queues |
 | Software | BigTech Electronics Store | 28 products, seven categories, and ten automated tests |
 
 ## Project case studies
 
-### 01 · India Public Health Facility Access Analytics
+### 01 · CareMap Facility Analytics
 
 <table>
   <tr>
-    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/india-public-health-facility-access-analytics"><img src="assets/india-health-facility-dashboard.png" width="100%" alt="India public health facility access dashboard" /></a></td>
+    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><img src="assets/caremap-dashboard.png" width="100%" alt="CareMap health facility dashboard" /></a></td>
     <td width="42%" valign="top">
       <p><strong>The issue</strong><br/>A nationwide directory is large enough that duplicate facilities, invalid coordinates, and inconsistent labels can distort a facility access view.</p>
       <p><strong>The build</strong><br/>A Python acquisition and quality pipeline, an analysis table, validation tests, DAX measures, a four page Power BI build guide, and a ten page report.</p>
       <p><strong>The outcome</strong><br/>200,438 source records became 193,783 clean records after 6,655 duplicates were removed. The final model covers 36 state and union territory labels, 688 state and district combinations, and 99.7% mapped records.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/india-public-health-facility-access-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/india-public-health-facility-access-analytics/blob/main/reports/India_Public_Health_Facility_Access_Analytics_Report.pdf">PDF report</a></p>
+      <p><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics/blob/main/reports/CareMap_Facility_Analytics_Report.pdf">PDF report</a></p>
     </td>
   </tr>
 </table>
 
-### 02 · Indian Metro Rental Price Estimator
+### 02 · MetroRent Price Estimator
 
 <table>
   <tr>
@@ -44,22 +44,22 @@
       <p><strong>The issue</strong><br/>Rental listings are inconsistent across cities and a single estimate can hide wide local variation.</p>
       <p><strong>The build</strong><br/>Two public rental sources, one cleaning pipeline, a leakage controlled train, calibration, and test split, a city median baseline, error analysis, and a calibrated interval.</p>
       <p><strong>The outcome</strong><br/>21,691 source listings produced 12,201 model rows across Bangalore, Mumbai, Nagpur, New Delhi, and Pune. On 1,831 unseen listings, MAE was ₹11,652 compared with a ₹22,122 city median baseline; the interval covered 89.7% of test rents.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/india-metro-rental-price-estimator"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/india-metro-rental-price-estimator/blob/main/reports/Indian_Metro_Rental_Price_Estimator_Report.pdf">PDF report</a></p>
+      <p><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator/blob/main/reports/MetroRent_Price_Estimator_Report.pdf">PDF report</a></p>
     </td>
-    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/india-metro-rental-price-estimator"><img src="assets/india-metro-rental-evaluation.png" width="100%" alt="Indian metro rental model evaluation" /></a></td>
+    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><img src="assets/metrorent-evaluation.png" width="100%" alt="MetroRent model evaluation" /></a></td>
   </tr>
 </table>
 
-### 03 · India Public Grievance Department Router
+### 03 · CivicRoute Service Request Triage
 
 <table>
   <tr>
-    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/india-public-grievance-department-router"><img src="assets/india-grievance-routing-evaluation.png" width="100%" alt="India public grievance routing evaluation" /></a></td>
+    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><img src="assets/civicroute-evaluation.png" width="100%" alt="CivicRoute service request triage evaluation" /></a></td>
     <td width="42%" valign="top">
-      <p><strong>The issue</strong><br/>A public complaint can be delayed when its text is sent to the wrong department, while an automatic router should not hide uncertainty.</p>
-      <p><strong>The build</strong><br/>A TF IDF and logistic regression pipeline with deduplication, a stratified holdout, department metrics, a confidence threshold, and a manual review route.</p>
-      <p><strong>The outcome</strong><br/>175,784 source records produced 36,805 prepared examples across eight departments. The held out macro F1 was 0.995; 2.5% of test complaints were retained for review instead of receiving a low confidence automatic route.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/india-public-grievance-department-router"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/india-public-grievance-department-router/blob/main/reports/India_Public_Grievance_Department_Router_Report.pdf">PDF report</a></p>
+      <p><strong>The issue</strong><br/>A citizen service request can be delayed when it reaches the wrong queue, while an automatic system should not hide uncertainty.</p>
+      <p><strong>The build</strong><br/>An interpretable TF IDF and logistic regression pipeline with deduplication, random and category-group holdouts, a confidence threshold, and manual review.</p>
+      <p><strong>The outcome</strong><br/>175,784 source records produced 36,805 prepared examples across eight service queues. The harder unseen-category holdout reached 0.974 macro F1 and retained 15.2% of requests for review.</p>
+      <p><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage/blob/main/reports/CivicRoute_Service_Request_Triage_Report.pdf">PDF report</a></p>
     </td>
   </tr>
 </table>
