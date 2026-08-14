@@ -20,63 +20,73 @@
 | Language systems | CivicRoute Service Request Triage | 175,784 source requests and eight service queues |
 | Software | BigTech Electronics Store | 28 products, seven categories, and fourteen automated tests |
 
-## Project case studies
+## Selected projects
 
 ### 01 · CareMap Facility Analytics
 
-<table>
-  <tr>
-    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><img src="assets/caremap-dashboard.png" width="100%" alt="CareMap health facility dashboard" /></a></td>
-    <td width="42%" valign="top">
-      <p><strong>The issue</strong><br/>A nationwide directory is large enough that duplicate facilities, invalid coordinates, and inconsistent labels can distort a facility access view.</p>
-      <p><strong>The build</strong><br/>A Python acquisition and quality pipeline, an analysis table, validation tests, DAX measures, a four page Power BI build guide, and a fifteen page technical report.</p>
-      <p><strong>The outcome</strong><br/>200,438 source records became 193,783 clean records after 6,655 duplicates were removed. The final model covers 36 state and union territory labels, 688 state and district combinations, and 99.7% mapped records.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics/blob/main/reports/CareMap_Report.pdf">PDF report</a></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><img src="assets/caremap-dashboard.png" width="720" alt="CareMap health facility dashboard" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Duplicate facilities, invalid coordinates and inconsistent labels can distort comparisons in a nationwide facility directory. |
+| **Approach** | I built a Python acquisition and quality pipeline, a validated analysis table, governed DAX measures and a four page Power BI implementation guide. |
+| **Evidence** | 200,438 source records became 193,783 clean records after 6,655 duplicates were removed. The final table has 99.7% mapped records across 36 state and union territory labels. |
+| **Stack** | Python · pandas · data quality testing · Power BI · DAX · pytest |
+
+<p align="center"><a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/caremap-facility-analytics/blob/main/reports/CareMap_Report.pdf"><strong>PDF report</strong></a></p>
+
+<br/>
 
 ### 02 · MetroRent Price Estimator
 
-<table>
-  <tr>
-    <td width="42%" valign="top">
-      <p><strong>The issue</strong><br/>Rental listings are inconsistent across cities and a single estimate can hide wide local variation.</p>
-      <p><strong>The build</strong><br/>Two public rental sources, one cleaning pipeline, a leakage controlled train, calibration, and test split, a city median baseline, error analysis, and a calibrated interval.</p>
-      <p><strong>The outcome</strong><br/>21,691 source listings produced 12,201 model rows across Bangalore, Mumbai, Nagpur, New Delhi, and Pune. On 1,831 unseen listings, MAE was ₹11,652 compared with a ₹22,122 city median baseline; the interval covered 89.7% of test rents.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator/blob/main/reports/MetroRent_Report.pdf">PDF report</a></p>
-    </td>
-    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><img src="assets/metrorent-evaluation.png" width="100%" alt="MetroRent model evaluation" /></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><img src="assets/metrorent-evaluation.png" width="720" alt="MetroRent model evaluation" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Rental listings vary widely across cities, while a single estimate can hide uncertainty and local price differences. |
+| **Approach** | I combined two public sources, cleaned the listings, used leakage controlled train, calibration and test splits, compared a city median baseline, and calibrated a prediction interval. |
+| **Evidence** | 21,691 source listings produced 12,201 model rows across five cities. On 1,831 unseen listings, MAE was ₹11,652 versus a ₹22,122 baseline, with 89.7% interval coverage. |
+| **Stack** | Python · pandas · scikit learn · regression · interval calibration · pytest |
+
+<p align="center"><a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/metrorent-price-estimator/blob/main/reports/MetroRent_Report.pdf"><strong>PDF report</strong></a></p>
+
+<br/>
 
 ### 03 · CivicRoute Service Request Triage
 
-<table>
-  <tr>
-    <td width="58%"><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><img src="assets/civicroute-evaluation.png" width="100%" alt="CivicRoute service request triage evaluation" /></a></td>
-    <td width="42%" valign="top">
-      <p><strong>The issue</strong><br/>A citizen service request can be delayed when it reaches the wrong queue, while an automatic system should not hide uncertainty.</p>
-      <p><strong>The build</strong><br/>An interpretable TF IDF and logistic regression pipeline with deduplication, random and category-group holdouts, a confidence threshold, and manual review.</p>
-      <p><strong>The outcome</strong><br/>175,784 source records produced 36,805 prepared examples across eight service queues. The harder unseen-category holdout reached 0.974 macro F1 and retained 15.2% of requests for review.</p>
-      <p><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage/blob/main/reports/CivicRoute_Report.pdf">PDF report</a></p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><img src="assets/civicroute-evaluation.png" width="720" alt="CivicRoute service request triage evaluation" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Citizen requests can be delayed when they reach the wrong service queue, while automated routing should keep uncertain cases visible. |
+| **Approach** | I built an interpretable TF IDF and logistic regression pipeline with deduplication, random and category group holdouts, confidence based routing and manual review. |
+| **Evidence** | 175,784 source requests produced 36,805 prepared examples across eight queues. The unseen category holdout reached 0.974 macro F1 and retained 15.2% of requests for review. |
+| **Stack** | Python · pandas · scikit learn · TF IDF · logistic regression · pytest |
+
+<p align="center"><a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/civicroute-service-request-triage/blob/main/reports/CivicRoute_Report.pdf"><strong>PDF report</strong></a></p>
+
+<br/>
 
 ### 04 · BigTech Electronics Store
 
-<table>
-  <tr>
-    <td width="42%" valign="top">
-      <p><strong>The issue</strong><br/>A useful retail application needs consistent behaviour from search and stock through cart, payment outcome, delivery, orders, account, and support.</p>
-      <p><strong>The build</strong><br/>A responsive Indian electronics experience backed by a Java 17 Spring Boot order API. The backend validates requests, coordinates five bounded components, reserves and releases inventory, stops safely after failure, and returns an eight stage delivery contract. Ezzie uses the same saved product and order state.</p>
-      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support available, low stock, unavailable, confirmed, shipped, delivered, payment failed, and stock changed scenarios. Ten JavaScript tests and four JUnit tests verify browser rules and backend commit, release, rejection, stopping paths and delivery milestones.</p>
-      <p><a href="https://bigtech-store.vercel.app/"><strong>Live project</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store">Source</a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Report.pdf">PDF report</a></p>
-    </td>
-    <td width="58%"><a href="https://bigtech-store.vercel.app/"><img src="assets/bigtech-ezzie-support.png" width="100%" alt="BigTech electronics store with Ezzie support" /></a></td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://bigtech-store.vercel.app/"><img src="assets/bigtech-ezzie-support.png" width="720" alt="BigTech electronics store with Ezzie support" /></a>
+</p>
+
+| | |
+| :--- | :--- |
+| **Problem** | Search, stock, payment, delivery, order history and support require one consistent state model across the shopping journey. |
+| **Approach** | I connected a responsive storefront to a Java 17 Spring Boot order API. The backend validates requests, coordinates five bounded components, reserves or releases inventory, and stops later work after failure. |
+| **Evidence** | The application covers 28 products, seven categories, eight delivery stages and three controlled checkout outcomes. Ten JavaScript tests and four JUnit tests verify browser and backend behaviour. |
+| **Stack** | Java 17 · Spring Boot · JavaScript · HTML · CSS · REST · JUnit · Vercel |
+
+<p align="center"><a href="https://bigtech-store.vercel.app/"><strong>Live application</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store"><strong>Repository</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Report.pdf"><strong>PDF report</strong></a></p>
 
 ## Tools I use
 
