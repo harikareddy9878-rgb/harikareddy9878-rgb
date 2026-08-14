@@ -74,7 +74,7 @@
       <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support available, low stock, unavailable, confirmed, shipped, delivered, payment failed, and stock changed scenarios. Ten JavaScript tests and four Java tests verify cart rules, stock commit and release, safe failure paths, delivery milestones, and assistant boundaries.</p>
       <p><a href="https://bigtech-electronics-store.vercel.app/"><strong>Live project</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store">Source</a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Electronics_Store_Report.pdf">PDF report</a></p>
     </td>
-    <td width="58%"><a href="https://bigtech-electronics-store.vercel.app/"><img src="assets/bigtech-ezzie-assistant.png" width="100%" alt="BigTech electronics store with Ezzie support" /></a></td>
+    <td width="58%"><a href="https://bigtech-electronics-store.vercel.app/"><img src="assets/bigtech-ezzie-support.png" width="100%" alt="BigTech electronics store with Ezzie support" /></a></td>
   </tr>
 </table>
 
