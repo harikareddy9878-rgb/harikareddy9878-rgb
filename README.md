@@ -18,7 +18,7 @@
 | Data analysis | CareMap Facility Analytics | 200,438 source records and a Power BI ready model |
 | Machine learning | MetroRent Price Estimator | 21,691 source listings across five cities |
 | Language systems | CivicRoute Service Request Triage | 175,784 source requests and eight service queues |
-| Software | BigTech Electronics Store | 28 products, seven categories, and ten automated tests |
+| Software | BigTech Electronics Store | 28 products, seven categories, and fourteen automated tests |
 
 ## Project case studies
 
@@ -70,8 +70,8 @@
   <tr>
     <td width="42%" valign="top">
       <p><strong>The issue</strong><br/>A useful retail demonstration needs consistent behaviour from search and stock through cart, payment outcome, delivery, orders, account, and support.</p>
-      <p><strong>The build</strong><br/>A responsive Indian electronics experience, an independently testable Java Spring Boot order service, and Ezzie for product, cart, delivery, return, and order questions.</p>
-      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support in stock, low stock, unavailable, successful payment, failed payment, and saved order scenarios. Seven frontend tests, three Java tests, and a production browser journey pass. The Vercel storefront now includes category specific product artwork and responsive discovery.</p>
+      <p><strong>The build</strong><br/>A responsive Indian electronics experience, a Java Spring Boot order coordinator with five bounded agents, inventory reservation and release, an eight stage delivery timeline, and Ezzie for product, cart, delivery, return, and order questions.</p>
+      <p><strong>The outcome</strong><br/>Twenty eight products across seven categories support available, low stock, unavailable, confirmed, shipped, delivered, payment failed, and stock changed scenarios. Ten JavaScript tests and four Java tests verify cart rules, stock commit and release, safe failure paths, delivery milestones, and assistant boundaries.</p>
       <p><a href="https://bigtech-electronics-store.vercel.app/"><strong>Live project</strong></a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store">Source</a> · <a href="https://github.com/harikareddy9878-rgb/bigtech-electronics-store/blob/main/reports/BigTech_Electronics_Store_Report.pdf">PDF report</a></p>
     </td>
     <td width="58%"><a href="https://bigtech-electronics-store.vercel.app/"><img src="assets/bigtech-ezzie-assistant.png" width="100%" alt="BigTech electronics store with Ezzie support" /></a></td>
